@@ -5,7 +5,7 @@ import {DeploySimpleStorage} from "../script/DeploySimpleStorage.s.sol";
 import {SimpleStorage} from "../src/SimpleStorage.sol";
 // import {Test} from "forge-std/Test.sol";
 
-/*contract SimpleStorageTest is Test {
+contract SimpleStorageTest is Test {
     SimpleStorage public simpleStorage;
 
     function setUp() external {
@@ -32,4 +32,4 @@ import {SimpleStorage} from "../src/SimpleStorage.sol";
         uint256 retreievedNumber = simpleStorage.nameToFavoriteNumber(name);
         assert(retreievedNumber == expectedNumber);
     }
-}*/
+}
