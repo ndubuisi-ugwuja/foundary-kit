@@ -15,11 +15,11 @@ contract SimpleStorageTest is Test {
 
     function testStoreNumber() public {
         // Arrange
-        uint256 expectedFavoiteNumber = 777;
+        uint256 expectedFavoriteNumber = 777;
         // Act
-        simpleStorage.store(expectedFavoiteNumber);
+        simpleStorage.store(expectedFavoriteNumber);
         // Assert
-        assert(expectedFavoiteNumber == simpleStorage.retrieve());
+        assert(expectedFavoriteNumber == simpleStorage.retrieve());
     }
 
     function testCreatePerson() public {
