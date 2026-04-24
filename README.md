@@ -64,4 +64,5 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
-### 0x450aD129056A4c83D8282FB75eced35B8e036216
+### 0x450aD129056A4c83D8282FB75eced35B8e036216 sepolia
+### 0x45F19F8f96a209463234ABBEA7EfAdA878093884 zksync sepolia
